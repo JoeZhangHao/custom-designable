@@ -1,0 +1,14 @@
+/dist/*
+/node_modules/**
+
+/public/*
+.local
+.history
+
+lib
+
+.output.js
+commitlint.config.js
+
+**/*.svg
+**/*.sh

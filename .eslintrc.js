@@ -1,19 +1,43 @@
 module.exports = {
   root: true,
   env: {
+    browser: true,
+    es2021: true,
     node: true,
   },
-  extends: [
-    "plugin:vue/vue3-essential",
-    "eslint:recommended",
-    "@vue/typescript/recommended",
-    "plugin:prettier/recommended",
-  ],
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: '2020',
+    sourceType: 'module',
   },
-  rules: {
-    "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
+  extends: [
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:prettier/recommended',
+  ],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.ts', '.json'],
+      },
+      typescript: {},
+    },
+    'import/extensions': ['.js', '.ts', '.mjs'],
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        'no-use-before-define': 'off',
+        'import/no-duplicates': 'off',
+        'no-unused-vars': 'off',
+      },
+    },
+    {
+      files: ['*.d.ts'],
+      rules: {
+        'no-unused-vars': 'off',
+      },
+    },
+  ],
 };
