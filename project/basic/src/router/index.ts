@@ -1,9 +1,5 @@
-import {
-  createRouter,
-  createWebHistory,
-  type RouteRecordRaw,
-} from 'vue-router';
-import MainView from '../views/Main';
+import { type RouteRecordRaw, createRouter, createWebHistory } from 'vue-router'
+import MainView from '../views/Main'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -11,11 +7,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'main',
     component: MainView,
   },
-];
+]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
-});
+})
 
-export default router;
+export default router

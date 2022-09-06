@@ -1,8 +1,16 @@
 {
   "eslintIntegration": true,
+  "semi": false,
   "singleQuote": true,
-  "semi": true,
   "jsxBracketSameLine": true,
   "endOfLine": "auto",
-  "bracketSpacing": true
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
 }

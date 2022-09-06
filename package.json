@@ -1,6 +1,8 @@
 {
   "name": "root",
   "private": true,
+  "keywords": [],
+  "author": "",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
@@ -9,19 +11,14 @@
     "ci:version": "changeset version",
     "build": "turbo run build",
     "test": "turbo run test",
-    "lint": "eslint --fix --ext .js,.ts,.tsx packages/*/src/**/*",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json && pretty-quick",
+    "lint:fix": "eslint --fix . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json && pretty-quick",
     "release": "pnpm build && pnpm ci:publish",
     "start:project-basic": "pnpm --filter project-basic serve"
   },
-  "keywords": [],
-  "author": "",
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix"
-    ],
-    "*.{d.ts,json,md}": [
-      "prettier --write"
-    ]
+  "dependencies": {
+    "@custom-designable/eslint-config": "workspace:^0.0.1",
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
     "@babel/core": "7.18.13",
@@ -29,6 +26,8 @@
     "@babel/preset-typescript": "7.18.6",
     "@changesets/cli": "2.24.4",
     "@commitlint/config-conventional": "17.1.0",
+    "@types/jsdom": "^20.0.0",
+    "@types/lodash-es": "^4.17.6",
     "@types/node": "18.7.14",
     "@typescript-eslint/eslint-plugin": "5.36.1",
     "@typescript-eslint/parser": "5.36.1",
@@ -39,6 +38,7 @@
     "find-up": "6.3.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
+    "pretty-quick": "^3.1.3",
     "rimraf": "3.0.2",
     "ts-node-dev": "2.0.0",
     "tsup": "6.2.3",
@@ -58,5 +58,13 @@
         }
       }
     }
+  },
+  "lint-staged": {
+    "*.{vue,js,ts,jsx,tsx,md,json}": [
+      "eslint --fix"
+    ],
+    "*.{d.ts,json,md}": [
+      "prettier --write"
+    ]
   }
 }

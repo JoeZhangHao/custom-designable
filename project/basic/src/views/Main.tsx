@@ -1,20 +1,16 @@
-import { defineComponent, onRenderTracked, onRenderTriggered } from 'vue';
-import { createForm } from '@formily/core';
-import { InputNumber, FormItem, Space } from '@formily/element-plus';
-import { FormProvider, FormConsumer, Field } from '@formily/vue';
+import { defineComponent, onRenderTracked, onRenderTriggered } from 'vue'
+import { createForm } from '@formily/core'
+import { FormItem, InputNumber, Space } from '@formily/element-plus'
+import { Field, FormConsumer, FormProvider } from '@formily/vue'
 
 export default defineComponent({
   name: 'AppMain',
   setup(props, { slots }) {
-    const form = createForm();
+    const form = createForm()
 
-    onRenderTracked((event) => {
-      debugger;
-    });
+    onRenderTracked((event) => {})
 
-    onRenderTriggered((event) => {
-      debugger;
-    });
+    onRenderTriggered((event) => {})
 
     return () => (
       <FormProvider form={form}>
@@ -61,6 +57,6 @@ export default defineComponent({
           </FormConsumer>
         </Space>
       </FormProvider>
-    );
+    )
   },
-});
+})

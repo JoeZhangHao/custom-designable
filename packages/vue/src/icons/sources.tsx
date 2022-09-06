@@ -15,7 +15,7 @@ export const InputSource = (
         fill-rule="nonzero"></path>
     </g>
   </svg>
-);
+)
 
 export const TextAreaSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -27,7 +27,7 @@ export const TextAreaSource = (
       d="M947.487373,862.63456 C951.392616,866.539803 951.392616,872.871452 947.487373,876.776695 L876.776695,947.487373 C872.871452,951.392616 866.539803,951.392616 862.63456,947.487373 C858.729317,943.58213 858.729317,937.250481 862.63456,933.345238 L933.345238,862.63456 C937.250481,858.729317 943.58213,858.729317 947.487373,862.63456 Z M912.132034,784.852814 C916.037277,788.758057 916.037277,795.089706 912.132034,798.994949 L798.994949,912.132034 C795.089706,916.037277 788.758057,916.037277 784.852814,912.132034 C780.947571,908.226791 780.947571,901.895142 784.852814,897.989899 L897.989899,784.852814 C901.895142,780.947571 908.226791,780.947571 912.132034,784.852814 Z M876.776695,707.071068 C880.681938,710.976311 880.681938,717.307961 876.776695,721.213203 L721.213203,876.776695 C717.307961,880.681938 710.976311,880.681938 707.071068,876.776695 C703.165825,872.871452 703.165825,866.539803 707.071068,862.63456 L862.63456,707.071068 C866.539803,703.165825 872.871452,703.165825 876.776695,707.071068 Z M150,90 C155.522847,90 160,94.4771525 160,100 L160,380 C160,385.522847 155.522847,390 150,390 C144.477153,390 140,385.522847 140,380 L140,100 C140,94.4771525 144.477153,90 150,90 Z"
       fill="var(--dn-brand-color)"></path>
   </g>
-);
+)
 
 export const SelectSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -72,7 +72,7 @@ export const SelectSource = (
       height="500"
       rx="10"></rect>
   </g>
-);
+)
 export const TreeSelectSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <path
@@ -126,7 +126,7 @@ export const TreeSelectSource = (
       height="500"
       rx="10"></rect>
   </g>
-);
+)
 
 export const CascaderSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -183,7 +183,7 @@ export const CascaderSource = (
       height="20"
       rx="10"></rect>
   </g>
-);
+)
 
 export const RadioGroupSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -244,7 +244,7 @@ export const RadioGroupSource = (
       height="560"
       rx="10"></rect>
   </g>
-);
+)
 
 export const CheckboxGroupSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -277,7 +277,7 @@ export const CheckboxGroupSource = (
       fill="var(--dn-brand-color)"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const SliderSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -293,7 +293,7 @@ export const SliderSource = (
       fill="var(--dn-brand-color)"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const RateSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -310,7 +310,7 @@ export const RateSource = (
       height="360"
       rx="10"></rect>
   </g>
-);
+)
 export const DatePickerSource = {
   light: (
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -586,7 +586,7 @@ export const DatePickerSource = {
         rx="10"></rect>
     </g>
   ),
-};
+}
 
 export const DateRangePickerSource = {
   light: (
@@ -863,7 +863,7 @@ export const DateRangePickerSource = {
         fill-rule="nonzero"></path>
     </g>
   ),
-};
+}
 
 export const TimePickerSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -892,7 +892,7 @@ export const TimePickerSource = (
     <circle fill="#999999" cx="512" cy="452" r="20"></circle>
     <circle fill="#999999" cx="512" cy="572" r="20"></circle>
   </g>
-);
+)
 
 export const TimeRangePickerSource = (
   <svg viewBox="0 0 1424 1024">
@@ -939,7 +939,7 @@ export const TimeRangePickerSource = (
       <circle fill="#999999" cx="1080.84641" cy="564.1" r="12.8"></circle>
     </g>
   </svg>
-);
+)
 
 export const NumberPickerSource = (
   <svg viewBox="0 0 1424 1024">
@@ -980,7 +980,7 @@ export const NumberPickerSource = (
         fill-rule="nonzero"></path>
     </g>
   </svg>
-);
+)
 
 export const PasswordSource = {
   light: (
@@ -1027,7 +1027,7 @@ export const PasswordSource = {
       </g>
     </svg>
   ),
-};
+}
 
 export const TransferSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1067,7 +1067,7 @@ export const TransferSource = (
       fill-rule="nonzero"
       transform="translate(311.000000, 649.000000) scale(-1, 1) rotate(45.000000) translate(-311.000000, -649.000000) "></path>
   </g>
-);
+)
 
 export const UploadSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1089,7 +1089,7 @@ export const UploadSource = (
       fill="#979797"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const UploadDraggerSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1122,7 +1122,7 @@ export const UploadDraggerSource = (
       fill="var(--dn-brand-color)"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const SwitchSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1135,7 +1135,7 @@ export const SwitchSource = (
       fill="var(--dn-brand-color)"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const ObjectSource = (
   <svg viewBox="0 0 1424 1024">
@@ -1164,7 +1164,7 @@ export const ObjectSource = (
       </g>
     </g>
   </svg>
-);
+)
 
 export const CardSource = {
   light: (
@@ -1237,7 +1237,7 @@ export const CardSource = {
         rx="10"></rect>
     </g>
   ),
-};
+}
 
 export const GridSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1294,7 +1294,7 @@ export const GridSource = (
       height="800"
       rx="10"></rect>
   </g>
-);
+)
 
 export const FormLayoutSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1359,7 +1359,7 @@ export const FormLayoutSource = (
       height="200"
       rx="10"></rect>
   </g>
-);
+)
 
 export const SpaceSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1380,7 +1380,7 @@ export const SpaceSource = (
       fill="#999999"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const TabSource = {
   light: (
@@ -1499,7 +1499,7 @@ export const TabSource = {
         rx="10"></rect>
     </g>
   ),
-};
+}
 
 export const CollapseSource = {
   light: (
@@ -1612,7 +1612,7 @@ export const CollapseSource = {
         rx="10"></rect>
     </g>
   ),
-};
+}
 
 export const ArrayCardsSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1657,7 +1657,7 @@ export const ArrayCardsSource = (
       height="500"
       rx="10"></rect>
   </g>
-);
+)
 
 export const ArrayTableSource = {
   light: (
@@ -1811,7 +1811,7 @@ export const ArrayTableSource = {
         rx="10"></rect>
     </g>
   ),
-};
+}
 
 export const ButtonSource = (
   <svg viewBox="0 0 1424 1024">
@@ -1838,7 +1838,7 @@ export const ButtonSource = (
         rx="10"></rect>
     </g>
   </svg>
-);
+)
 
 export const MediaSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1860,7 +1860,7 @@ export const MediaSource = (
       height="400"
       rx="10"></rect>
   </g>
-);
+)
 
 export const NotificationSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1906,7 +1906,7 @@ export const NotificationSource = (
       fill="#979797"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const ImageSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1923,7 +1923,7 @@ export const ImageSource = (
       fill="#979797"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const TextSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1959,7 +1959,7 @@ export const TextSource = (
       fill-rule="nonzero"
       transform="translate(532.221771, 725.196578) rotate(45.000000) translate(-532.221771, -725.196578) "></path>
   </g>
-);
+)
 
 export const CreateButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1988,7 +1988,7 @@ export const CreateButtonSource = (
       height="200"
       rx="10"></rect>
   </g>
-);
+)
 
 export const DeleteButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2019,7 +2019,7 @@ export const DeleteButtonSource = (
         rx="10"></rect>
     </g>
   </g>
-);
+)
 
 export const SubmitButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2036,7 +2036,7 @@ export const SubmitButtonSource = (
       fill="var(--dn-brand-color)"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const ResetButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2054,7 +2054,7 @@ export const ResetButtonSource = (
       fill-rule="nonzero"
       transform="translate(332.000000, 490.213203) rotate(225.000000) translate(-332.000000, -490.213203) "></path>
   </g>
-);
+)
 
 export const UpdateButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2076,7 +2076,7 @@ export const UpdateButtonSource = (
       fill-rule="nonzero"
       transform="translate(512.000000, 652.000000) scale(1, -1) translate(-512.000000, -652.000000) "></path>
   </g>
-);
+)
 
 export const OpenPageButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2098,7 +2098,7 @@ export const OpenPageButtonSource = (
       fill="var(--dn-brand-color)"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const CustomButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2133,7 +2133,7 @@ export const CustomButtonSource = (
       fill="var(--dn-brand-color)"
       transform="translate(573.920412, 596.207209) scale(-1, 1) rotate(675.000000) translate(-573.920412, -596.207209) "></path>
   </g>
-);
+)
 
 export const ConfirmButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2164,7 +2164,7 @@ export const ConfirmButtonSource = (
         rx="10"></rect>
     </g>
   </g>
-);
+)
 
 export const CancelButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2185,7 +2185,7 @@ export const CancelButtonSource = (
       height="360"
       rx="10"></rect>
   </g>
-);
+)
 
 export const DetailLinkButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2233,7 +2233,7 @@ export const DetailLinkButtonSource = (
       fill="var(--dn-brand-color)"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const CreateLinkButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2272,7 +2272,7 @@ export const CreateLinkButtonSource = (
       fill="var(--dn-brand-color)"
       fill-rule="nonzero"></path>
   </g>
-);
+)
 
 export const UpdateLinkButtonSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2304,7 +2304,7 @@ export const UpdateLinkButtonSource = (
         transform="translate(40.000000, 151.000000) scale(-1, -1) translate(-40.000000, -151.000000) "></path>
     </g>
   </g>
-);
+)
 
 export const DataTableSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2447,7 +2447,7 @@ export const DataTableSource = (
       height="150"
       rx="10"></rect>
   </g>
-);
+)
 
 export const DataQueryListSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2585,7 +2585,7 @@ export const DataQueryListSource = (
       height="150"
       rx="10"></rect>
   </g>
-);
+)
 
 export const DataFormSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2682,7 +2682,7 @@ export const DataFormSource = (
         fill-rule="nonzero"></path>
     </g>
   </g>
-);
+)
 
 export const DataDetailFormSource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2771,7 +2771,7 @@ export const DataDetailFormSource = (
         fill-rule="nonzero"></path>
     </g>
   </g>
-);
+)
 
 export const EntitySource = (
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -2849,7 +2849,7 @@ export const EntitySource = (
         rx="10"></rect>
     </g>
   </g>
-);
+)
 
 export const ImageEntitySource = (
   <g stroke="none" fill="none">
@@ -2874,7 +2874,7 @@ export const ImageEntitySource = (
       d="M622.492294,598.549112 C638.021928,582.837333 663.348097,582.689676 679.059875,598.21931 C680.206394,599.352537 681.283184,600.553865 682.28442,601.816661 L682.778715,602.45315 L773.63287,721.908356 L757.714006,734.015782 L666.85985,614.560576 C666.290581,613.8121 665.669233,613.104705 665.00043,612.443656 C657.234839,604.768089 644.771927,604.752006 636.986319,612.340748 L636.71664,612.608556 L532.459335,718.088677 C519.538645,731.160912 499.394504,733.730454 483.623258,724.384289 L483.146692,724.097423 L416.986275,683.650209 C408.549633,678.492463 397.630586,680.28107 391.275853,687.807782 L391.033706,688.100098 L312.844261,784.306964 L297.323668,771.693036 L375.513113,675.48617 C388.019775,660.097561 409.885948,656.215893 426.904049,666.277232 L427.418251,666.586391 L493.578668,707.033605 C501.383946,711.805367 511.413908,710.666156 517.948964,704.312903 L518.23499,704.029232 L622.492294,598.549112 Z"
       fill="var(--dn-brand-color)"></path>
   </g>
-);
+)
 
 export const FileEntitySource = (
   <g fill="none">
@@ -2905,7 +2905,7 @@ export const FileEntitySource = (
       fill="var(--dn-brand-color)"
       transform="translate(534.183442, 656.500000) scale(1, -1) translate(-534.183442, -656.500000) "></path>
   </g>
-);
+)
 
 export const FileSource = (
   <g stroke="none" fill="none">
@@ -2940,4 +2940,4 @@ export const FileSource = (
       height="147"
       rx="10"></rect>
   </g>
-);
+)

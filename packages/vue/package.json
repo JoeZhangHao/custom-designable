@@ -2,14 +2,15 @@
   "name": "@custom-designable/vue",
   "version": "0.1.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "@designable/core": "1.0.0-beta.45",
     "@formily/core": "^2.2.2",
     "@formily/element-plus": "1.0.0-beta.6",
     "@formily/vue": "^2.2.2",

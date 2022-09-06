@@ -1,7 +1,7 @@
-import { defineConfig } from 'tsup';
-import fs from 'node:fs';
-import path from 'node:path';
-import { findUp } from 'find-up';
+import fs from 'node:fs'
+import path from 'node:path'
+import { defineConfig } from 'tsup'
+import { findUp } from 'find-up'
 
 export default defineConfig({
   entry: ['src/index.ts'],
@@ -21,34 +21,33 @@ export default defineConfig({
             filter: /.tsx?$/,
           },
           async ({ path: modulePath }) => {
-            debugger;
             const raw = (
               await fs.promises.readFile(modulePath, 'utf-8')
-            ).toString();
+            ).toString()
             const rootSrc = await findUp('src', {
               cwd: path.dirname(modulePath),
               type: 'directory',
-            });
-            const ext = modulePath.endsWith('ts') ? 'ts' : 'js';
-            const matchResult = raw.match(/(['"])@\/(.+)\1/);
+            })
+            const ext = modulePath.endsWith('ts') ? 'ts' : 'js'
+            const matchResult = raw.match(/(['"])@\/(.+)\1/)
             if (!matchResult) {
               return {
                 contents: raw,
                 loader: ext,
-              };
+              }
             }
-            const [rawContent, quota, remainPath] = matchResult;
+            const [rawContent, quota, remainPath] = matchResult
             const finalContent = raw.replace(
               rawContent,
               `${quota}${path.join(rootSrc as string, remainPath)}${quota}`
-            );
+            )
             return {
               contents: finalContent,
               loader: ext,
-            };
+            }
           }
-        );
+        )
       },
     },
   ],
-});
+})

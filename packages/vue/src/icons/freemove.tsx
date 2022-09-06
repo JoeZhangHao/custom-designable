@@ -5,4 +5,4 @@ export const FreeMove = (
       p-id="13294"
       fill="#ffffff"></path>
   </svg>
-);
+)
