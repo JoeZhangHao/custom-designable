@@ -31,6 +31,7 @@ importers:
       tsup: 6.2.3
       turbo: 1.4.3
       typescript: 4.8.2
+      zl-gitckt-specdir: ^1.0.0
     dependencies:
       '@custom-designable/eslint-config': link:internal/eslint-config
       lodash-es: 4.17.21
@@ -58,6 +59,7 @@ importers:
       tsup: 6.2.3_s5ojjbx2isjkawqptqpitvy25q
       turbo: 1.4.3
       typescript: 4.8.2
+      zl-gitckt-specdir: 1.0.0
 
   internal/eslint-config:
     specifiers:
@@ -100,6 +102,7 @@ importers:
     specifiers:
       '@babel/eslint-parser': ^7.18.9
       '@designable/core': 1.0.0-beta.45
+      '@designable/shared': 1.0.0-beta.45
       '@formily/core': ^2.2.2
       '@formily/element-plus': 1.0.0-beta.6
       '@formily/vue': ^2.2.2
@@ -133,6 +136,7 @@ importers:
       vue-tsc: ^0.40.1
     dependencies:
       '@designable/core': 1.0.0-beta.45_sdo7pwlw34nxp6lccydlbzh4jq
+      '@designable/shared': 1.0.0-beta.45
       '@formily/core': 2.2.2
       '@formily/element-plus': 1.0.0-beta.6_pj7ch6rmow6odq73xb5hfvge3q
       '@formily/vue': 2.2.2_pj7ch6rmow6odq73xb5hfvge3q
@@ -2881,7 +2885,7 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0 || ^5.0.0-0
     dependencies:
-      '@vue/cli-service': 5.0.8_cfecjro5eucgdibplg6dpsyrxy
+      '@vue/cli-service': 5.0.8_vpcsc4jy4ruxqh77bqalu2moum
       '@vue/cli-shared-utils': 5.0.8
     transitivePeerDependencies:
       - encoding
@@ -2928,7 +2932,7 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0 || ^5.0.0-0
     dependencies:
-      '@vue/cli-service': 5.0.8_cfecjro5eucgdibplg6dpsyrxy
+      '@vue/cli-service': 5.0.8_vpcsc4jy4ruxqh77bqalu2moum
     dev: true
 
   /@vue/cli-service/5.0.8_cfecjro5eucgdibplg6dpsyrxy:
@@ -4237,6 +4241,10 @@ packages:
 
   /chardet/0.7.0:
     resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==}
+    dev: true
+
+  /child_process/1.0.2:
+    resolution: {integrity: sha512-Wmza/JzL0SiWz7kl6MhIKT5ceIlnFPJX+lwUGj7Clhy5MMldsSoJR0+uvRzOS5Kv45Mq7t1PoE8TsOA9bzvb6g==}
     dev: true
 
   /chokidar/3.5.3:
@@ -11102,4 +11110,16 @@ packages:
       is-ci: 1.2.1
       normalize-path: 1.0.0
       strip-indent: 2.0.0
+    dev: true
+
+  /zl-gitckt-specdir/1.0.0:
+    resolution: {integrity: sha512-DjJJtc6xCtiukpp4bODR5W9S6FBmbJjKaoPfjHA4dS/1NNaF/p09xt0hviQk/gwpCfwVmJkwe6C2ZSeVgjhLXA==}
+    hasBin: true
+    dependencies:
+      child_process: 1.0.2
+      zl-nodefs: 1.1.6
+    dev: true
+
+  /zl-nodefs/1.1.6:
+    resolution: {integrity: sha512-fDv+gA+ZMzmDMV0oF/Do/9IgnNqVIx6VbMaY2OyDtOmlhQ7BKIUjJA5TRXbWNaRWNTpM7uWviVhstcxJORli1Q==}
     dev: true

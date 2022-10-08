@@ -5,7 +5,7 @@ export const DesignerLayoutStateSymbol = Symbol('DesignerLayoutState')
 export const DesignerLayoutUpdateSymbol = Symbol('DesignerLayoutUpdate')
 
 // 设计器风格对象
-const DesignerLayoutContext = defineComponent({
+export const DesignerLayoutContext = defineComponent({
   name: 'DesignerLayoutContext',
   setup(_props, { slots }) {
     const state = reactive<IDesignerLayoutContext>({
@@ -32,5 +32,3 @@ const DesignerLayoutContext = defineComponent({
     }
   },
 })
-
-export default DesignerLayoutContext

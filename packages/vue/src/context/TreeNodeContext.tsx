@@ -5,7 +5,7 @@ export const TreeNodeStateSymbol = Symbol('TreeNodeState')
 export const TreeNodeUpdateSymbol = Symbol('TreeNodeUpdate')
 
 // 组件树
-const TreeNodeContext = defineComponent({
+export const TreeNodeContext = defineComponent({
   name: 'TreeNodeContext',
   setup(_props, { slots }) {
     const state = ref<TreeNode>({} as TreeNode)
@@ -23,5 +23,3 @@ const TreeNodeContext = defineComponent({
     }
   },
 })
-
-export default TreeNodeContext

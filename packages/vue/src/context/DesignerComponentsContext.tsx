@@ -5,7 +5,7 @@ export const DesignerComponentsStateSymbol = Symbol('DesignerComponentsState')
 export const DesignerComponentsUpdateSymbol = Symbol('DesignerComponentsUpdate')
 
 // 设计器已挂载的组件
-const DesignerComponentsContext = defineComponent({
+export const DesignerComponentsContext = defineComponent({
   name: 'DesignerComponentsContext',
   setup(_props, { slots }) {
     const state = reactive<IDesignerComponents>({})
@@ -23,5 +23,3 @@ const DesignerComponentsContext = defineComponent({
     }
   },
 })
-
-export default DesignerComponentsContext

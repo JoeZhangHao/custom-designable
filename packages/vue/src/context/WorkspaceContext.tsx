@@ -5,7 +5,7 @@ export const WorkspaceStateSymbol = Symbol('WorkspaceState')
 export const WorkspaceUpdateSymbol = Symbol('WorkspaceUpdate')
 
 // 当前的工作空间
-const WorkspaceContext = defineComponent({
+export const WorkspaceContext = defineComponent({
   name: 'WorkspaceContext',
   setup(_props, { slots }) {
     const state = reactive<IWorkspaceContext>({
@@ -31,5 +31,3 @@ const WorkspaceContext = defineComponent({
     }
   },
 })
-
-export default WorkspaceContext
